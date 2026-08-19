@@ -1,10 +1,14 @@
-/*
+/**
  * @name Adwaita
  * @description Adwaita theme for BetterDiscord.
  * @author kusaida
+ * @version 0.1.0
+ * @source https://github.com/kusaida/adwaita-discord
+ * @website https://github.com/kusaida/adwaita-discord
  */
- 
-@import url("https://raw.githubusercontent.com/kusaida/adwaita-discord/refs/heads/main/build/adwaita.css");
+
+/* import theme */
+@import url(' https://kusaida.github.io/adwaita-discord/build/adwaita.css');
  
 :root  {
     /* Window controls */
