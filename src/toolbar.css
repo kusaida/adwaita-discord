@@ -1,0 +1,109 @@
+.topic__6ec1a {
+  line-height: 16px !important;
+  text-align: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  anchor-name: --chat-topic !important;
+  width: -webkit-fill-available !important;
+}
+.topic__6ec1a a,
+.topic__6ec1a .channelMention {
+  app-region: no-drag !important;
+}
+.topic__6ec1a .icon_b75563 {
+  margin-bottom: 0.1rem !important;
+}
+
+.topicClickTarget__6ec1a {
+  --icon: var(--info-icon) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.topicClickTarget__6ec1a:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.topicClickTarget__6ec1a:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.topicClickTarget__6ec1a {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.topicClickTarget__6ec1a:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.topicClickTarget__6ec1a {
+  anchor-name: --tooltip-u6fl57t !important;
+}
+.topicClickTarget__6ec1a:hover::after {
+  backdrop-filter: blur(3px) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  padding: 6px 10px !important;
+  display: block !important;
+  position: fixed !important;
+  position-anchor: --tooltip-u6fl57t !important;
+  top: calc(anchor(bottom) + var(--spacing)) !important;
+  z-index: 999 !important;
+  : anchor() !important;
+  pointer-events: none !important;
+}
+.topicClickTarget__6ec1a {
+  color: var(--headerbar_fg_color) !important;
+  position: fixed !important;
+  position-anchor: --chat-topic !important;
+  top: var(--spacing) !important;
+  right: calc(anchor(right) - var(--icon-button-size) - var(--spacing)) !important;
+  left: unset !important;
+  pointer-events: all !important;
+}
+.content__5e434:nth-child(3) .topicClickTarget__6ec1a {
+  margin-top: calc(var(--icon-button-size) + var(--spacing-2x)) !important;
+}
+
+.toolbar__9293f {
+  gap: var(--spacing) !important;
+  padding: var(--spacing) !important;
+}
+.toolbar__9293f [aria-label="Notification Settings"] {
+  display: none !important;
+}
+.toolbar__9293f .liveQualityIndicator__30845 {
+  margin-bottom: 0 !important;
+}
+.toolbar__9293f .qualityIndicator__30845 {
+  width: unset !important;
+  height: unset !important;
+}
+.toolbar__9293f .qualityIndicator__30845::before {
+  display: none !important;
+}
+.toolbar__9293f .qualityIndicator__30845 > * {
+  display: initial !important;
+}
+
+.transparent__9293f .children__9293f,
+.transparent__9293f .toolbar__9293f,
+.transparent__9293f .upperContainer__9293f {
+  opacity: 1 !important;
+}
+
+.upperContainer__9293f {
+  --window_fg_color: var(--headerbar_fg_color) !important;
+  --window_fg_muted: color-mix(
+  	in srgb,
+  	var(--window_fg_color) var(--dim-level-opacity),
+  	transparent
+  ) !important;
+  padding-right: var(--chat-header-right-padding) !important;
+  align-items: start !important;
+}

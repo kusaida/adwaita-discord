@@ -1,0 +1,120 @@
+.button__74017 {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.button__74017:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.button__74017:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.button__74017 {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.button__74017:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+
+.buttonContainer__74017 > :where(button, div) {
+  margin-left: var(--spacing) !important;
+}
+
+.buttons__74017 {
+  gap: 0 !important;
+}
+.buttons__74017 > div {
+  height: 100% !important;
+  align-items: start !important;
+}
+
+.channelTextArea__74017 {
+  --custom-channel-textarea-text-area-height: 34px !important;
+  background: transparent !important;
+  border: none !important;
+}
+.channelTextArea__74017 .editor__1b31f {
+  outline: 0 solid transparent !important;
+  outline-offset: 2px !important;
+  transition: outline var(--focus_transition) !important;
+}
+.channelTextArea__74017 .editor__1b31f:is(:focus, :focus-within) {
+  outline: 2px solid color-mix(in srgb, var(--accent-bg-color) 50%, transparent) !important;
+  outline-offset: -2px !important;
+}
+.channelTextArea__74017 .editor__1b31f {
+  background-color: color-mix(in srgb, currentColor 10%, var(--window_bg_color)) !important;
+  font-size: var(--document-font-size) !important;
+  line-height: 1.2 !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 8px 9px !important;
+  margin: 0 !important;
+  height: unset !important;
+}
+.channelTextArea__74017 .editor__1b31f:disabled {
+  opacity: var(--dim-level-opacity) !important;
+}
+.channelTextArea__74017 .editor__1b31f::placeholder {
+  color: var(--text-muted) !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+.custom-theme-background .channelTextArea__74017 .editor__1b31f {
+  background: var(--background-gradient-highest) !important;
+}
+.channelTextArea__74017 .editor__1b31f[contenteditable=false] {
+  opacity: var(--dim-level-opacity) !important;
+}
+.channelTextArea__74017 .placeholder__1b31f {
+  line-height: 1.25 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  inset: 8px 9px !important;
+  z-index: 1 !important;
+}
+
+.inner__74017 {
+  padding: 0 !important;
+}
+
+.textArea__74017:not(.textAreaSlate__74017) {
+  outline: 0 solid transparent !important;
+  outline-offset: 2px !important;
+  transition: outline var(--focus_transition) !important;
+}
+.textArea__74017:not(.textAreaSlate__74017):is(:focus, :focus-within) {
+  outline: 2px solid color-mix(in srgb, var(--accent-bg-color) 50%, transparent) !important;
+  outline-offset: -2px !important;
+}
+.textArea__74017:not(.textAreaSlate__74017) {
+  background-color: color-mix(in srgb, currentColor 10%, var(--window_bg_color)) !important;
+  font-size: var(--document-font-size) !important;
+  line-height: 1.2 !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 8px 9px !important;
+  margin: 0 !important;
+  height: unset !important;
+}
+.textArea__74017:not(.textAreaSlate__74017):disabled {
+  opacity: var(--dim-level-opacity) !important;
+}
+.textArea__74017:not(.textAreaSlate__74017)::placeholder {
+  color: var(--text-muted) !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+.textArea__74017:not(.textAreaSlate__74017) {
+  line-height: 1.25 !important;
+}
+
+.themedBackground__74017 {
+  background: transparent !important;
+}

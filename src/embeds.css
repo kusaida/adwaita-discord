@@ -1,0 +1,421 @@
+.embedFull__623de {
+  background-color: color-mix(in srgb, currentColor 3%, transparent) !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-left-width: var(--radius-xs) !important;
+  border-radius: var(--radius-xs) !important;
+}
+.embedFull__623de .grid__623de {
+  padding: 12px 8px !important;
+}
+.embedFull__623de .anchor_edefb8 {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.embedFull__623de .embedAuthor__623de {
+  margin: 0 !important;
+}
+.embedFull__623de :where(.embedMargin__623de) {
+  margin-top: var(--spacing) !important;
+}
+.embedFull__623de .embedSuppressButton__623de {
+  --icon: var(--close-icon) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.embedFull__623de .embedSuppressButton__623de:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.embedFull__623de .embedSuppressButton__623de:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.embedFull__623de .embedSuppressButton__623de {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.embedFull__623de .embedSuppressButton__623de:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.embedFull__623de .embedSuppressButton__623de {
+  position: absolute !important;
+  top: 0 !important;
+  right: calc(var(--icon-button-size) * -1 - var(--spacing)) !important;
+}
+.embedFull__623de .wrapper__926d7 {
+  --icon-button-size: calc(34px * 2) !important;
+  --icon-size: calc(16px * 2) !important;
+  background-color: transparent !important;
+  gap: var(--spacing) !important;
+  padding: 0 !important;
+  height: unset !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7 {
+  --icon: var(--play-icon) !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  transition: var(--button_transition) !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7 {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  color: white !important;
+  border-radius: 999px !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7:hover {
+  background-color: color-mix(in srgb, black 55.25%, currentColor 9.75%) !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7:active {
+  background-color: color-mix(in srgb, black 48.75%, currentColor 16.25%) !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7 {
+  opacity: 1 !important;
+}
+.embedFull__623de .wrapper__926d7 .iconWrapper__926d7.anchor_edefb8 {
+  --icon: var(--link-icon) !important;
+}
+
+.embedMedia__623de {
+  border-radius: var(--radius-xs) !important;
+}
+
+.guildInviteContainer__083ae {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  padding: 0 !important;
+}
+
+.wrapper_d5f3cd {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+}
+.wrapper_d5f3cd .guildIcon_d5f3cd {
+  border-radius: 999px !important;
+}
+.wrapper_d5f3cd .inviteDestination_d5f3cd {
+  margin: 0 !important;
+}
+.wrapper_d5f3cd .inviteSplash_d5f3cd {
+  border-top-right-radius: inherit !important;
+  border-top-left-radius: inherit !important;
+  margin: -10px -16px !important;
+  margin-bottom: 10px !important;
+}
+
+.hoverButtonGroup__06ab4 {
+  background-color: transparent !important;
+  outline: none !important;
+  gap: var(--spacing) !important;
+  top: var(--spacing) !important;
+  right: var(--spacing) !important;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4 {
+  --icon: var(--download-icon) !important;
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  color: white !important;
+  border-radius: 999px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  transition: var(--button_transition) !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4:hover {
+  background-color: color-mix(in srgb, black 55.25%, currentColor 9.75%) !important;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4:active {
+  background-color: color-mix(in srgb, black 48.75%, currentColor 16.25%) !important;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4:hover {
+  color: white !important;
+}
+.hoverButtonGroup__06ab4 .hoverButton__06ab4.removeMosaicItemHoverButton__6c706 {
+  --icon: var(--close-icon) !important;
+}
+
+.markup__75297 .codeActions__75297 {
+  display: block !important;
+  top: 10px !important;
+  right: 10px !important;
+}
+.markup__75297 .codeActions__75297 > div {
+  --icon: var(--copy-icon) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.markup__75297 .codeActions__75297 > div:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.markup__75297 .codeActions__75297 > div:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.markup__75297 .codeActions__75297 > div {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.markup__75297 .codeActions__75297 > div:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.markup__75297 .hljs {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  margin-bottom: 8px !important;
+}
+
+.container__9271d {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.container__9271d:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.container__9271d:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.container__9271d {
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  height: 34px !important;
+}
+.container__9271d * {
+  font: inherit !important;
+}
+.container__9271d svg {
+  display: none !important;
+}
+.container__9271d {
+  margin-top: var(--spacing) !important;
+  height: unset !important;
+}
+.container__9271d .cta__9271d {
+  text-decoration: none !important;
+}
+
+.file__0ccae {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+}
+.file__0ccae .fileNameLink__0ccae {
+  color: var(--card_fg_color) !important;
+  text-decoration: none !important;
+  pointer-events: none !important;
+}
+
+.iconWrapper__6eb54 {
+  --icon-button-size: calc(34px * 2) !important;
+  --icon-size: calc(16px * 2) !important;
+  --icon: var(--play-icon) !important;
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  color: white !important;
+  border-radius: 999px !important;
+  border: none !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  transition: var(--button_transition) !important;
+  opacity: 1 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconWrapper__6eb54:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.iconWrapper__6eb54:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.iconWrapper__6eb54:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.iconWrapper__6eb54:hover {
+  background-color: color-mix(in srgb, black 55.25%, currentColor 9.75%) !important;
+}
+.iconWrapper__6eb54:active {
+  background-color: color-mix(in srgb, black 48.75%, currentColor 16.25%) !important;
+}
+
+.imageAccessory_af017a .gifFavoriteButton__43deb {
+  --icon: var(--non-starred-icon) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  color: white !important;
+  border-radius: 999px !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb:hover {
+  background-color: color-mix(in srgb, black 55.25%, currentColor 9.75%) !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb:active {
+  background-color: color-mix(in srgb, black 48.75%, currentColor 16.25%) !important;
+}
+.imageAccessory_af017a .gifFavoriteButton__43deb.selected__43deb {
+  --icon: var(--starred-icon) !important;
+}
+
+.oneByOneGridSingle_f4758a {
+  border-radius: var(--radius-md) !important;
+}
+
+.reaction__23977 {
+  border: none !important;
+  padding: 0 !important;
+  margin-right: var(--spacing) !important;
+  margin-bottom: var(--spacing) !important;
+}
+.reaction__23977.reactionMe__23977 {
+  color: var(--accent-color) !important;
+}
+.reaction__23977 .burstGlow__23977 {
+  display: none !important;
+}
+.reaction__23977 .reactionCount__23977 {
+  color: inherit !important;
+}
+.reaction__23977 .reactionInner__23977 {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.reaction__23977 .reactionInner__23977:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.reaction__23977 .reactionInner__23977:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.reaction__23977 .reactionInner__23977 {
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  height: 34px !important;
+}
+.reaction__23977 .reactionInner__23977 * {
+  font: inherit !important;
+}
+.reaction__23977 .reactionInner__23977 svg {
+  display: none !important;
+}
+.reaction__23977 .reactionInner__23977 {
+  background-color: inherit !important;
+  height: unset !important;
+}
+
+.reactionBtn__23977 {
+  --icon: var(--add-reaction-icon) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  border: none !important;
+  margin-right: var(--spacing) !important;
+  margin-bottom: var(--spacing) !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  transition: var(--button_transition) !important;
+}
+.reactionBtn__23977:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.reactionBtn__23977:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.reactionBtn__23977:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}

@@ -1,0 +1,907 @@
+:where(.vc-btn-base) {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+:where(.vc-btn-base):hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+:where(.vc-btn-base):active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+:where(.vc-btn-base) {
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  height: 34px !important;
+}
+:where(.vc-btn-base) * {
+  font: inherit !important;
+}
+:where(.vc-btn-base) svg {
+  display: none !important;
+}
+:where(.vc-btn-base):disabled {
+  opacity: var(--dim-level-opacity) !important;
+}
+:where(.vc-btn-base).vc-btn-primary {
+  background-color: var(--accent-bg-color) !important;
+  color: var(--accent_fg_color) !important;
+}
+:where(.vc-btn-base).vc-btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 95%, rgb(0, 0, 6)) !important;
+}
+:where(.vc-btn-base).vc-btn-primary:active {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 70%, rgb(0, 0, 6)) !important;
+}
+
+.vc-card-base {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border: none !important;
+}
+.vc-card-base.vc-card-warning {
+  --card_bg_color: color-mix(
+  	in srgb,
+  	var(--warning-bg-color) 10%,
+  	transparent
+  ) !important;
+  --card_fg_color: var(--warning-color) !important;
+  --card_shade_color: color-mix(
+  	in srgb,
+  	var(--warning-bg-color) 36%,
+  	transparent
+  ) !important;
+}
+
+.vc-divider {
+  display: none !important;
+}
+
+.vc-form-switch {
+  margin-block: auto !important;
+}
+.vc-form-switch.vc-form-switch-disabled {
+  opacity: 1 !important;
+}
+.vc-form-switch .vc-text-md {
+  margin-block: 4px !important;
+}
+.vc-form-switch-text {
+  gap: var(--spacing) !important;
+  justify-content: start !important;
+}
+
+.vc-form-switch-wrapper {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+}
+.vc-form-switch-wrapper:where(:nth-child(-n+1 of .vc-form-switch-wrapper)) {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+}
+.vc-form-switch-wrapper:where(:nth-last-child(-n+1 of .vc-form-switch-wrapper)) {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  border: none !important;
+}
+.vc-form-switch-wrapper:only-child {
+  border-radius: var(--card_radius) !important;
+}
+
+.vc-h4,
+.vc-h5 {
+  letter-spacing: 0 !important;
+}
+
+.vc-icon {
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+}
+.vc-icon.vc-cog-wheel {
+  --icon: var(--settings-icon) !important;
+}
+.vc-icon.vc-folder-icon {
+  --icon: var(--folder-icon) !important;
+}
+.vc-icon.vc-info-icon {
+  --icon: var(--info-icon) !important;
+}
+.vc-icon.vc-log-icon {
+  --icon: var(--info-icon) !important;
+}
+.vc-icon.vc-paintbrush-icon {
+  --icon: var(--edit-icon) !important;
+}
+.vc-icon.vc-restart-icon {
+  --icon: var(--view-refresh-icon) !important;
+}
+.vc-icon * {
+  display: none !important;
+}
+
+.vc-switch-container {
+  --percentage: 15.25% !important;
+  --spacing: var(--spacing-05x) !important;
+  --swatch-size: 20px !important;
+  background-color: color-mix(in srgb, var(--window_fg_color) var(--percentage), transparent) !important;
+  border: none !important;
+  padding: var(--spacing) !important;
+  width: calc(var(--swatch-size) * 2 + var(--spacing) * 2) !important;
+  height: calc(var(--swatch-size) + var(--spacing) * 2) !important;
+}
+.vc-switch-container::before {
+  content: "" !important;
+  display: block !important;
+  width: var(--swatch-size) !important;
+  height: var(--swatch-size) !important;
+  background-color: #fff !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 4px color-mix(in srgb, black 20%, transparent) !important;
+  transition: var(--switch-transition) !important;
+}
+.vc-switch-container:hover {
+  --percentage: 22.5% !important;
+}
+.vc-switch-container:active {
+  --percentage: 8% !important;
+}
+.vc-switch-container.vc-switch-checked {
+  background-color: var(--accent-bg-color) !important;
+}
+.vc-switch-container.vc-switch-checked::before {
+  margin-left: var(--swatch-size) !important;
+  transition: var(--switch-transition) !important;
+}
+.vc-switch-container.vc-switch-checked:hover {
+  background-color: #4990e7 !important;
+}
+.vc-switch-container.vc-switch-checked:active {
+  background-color: #2a6ab6 !important;
+}
+.vc-switch-container.vc-switch-disabled {
+  opacity: var(--disabled-opacity) !important;
+}
+
+.vc-switch-slider {
+  display: none !important;
+}
+
+.vc-text-sm,
+.vc-text-xs {
+  color: var(--window_fg_muted) !important;
+  font-size: var(--document-font-size) !important;
+}
+
+.vc-cfc-button {
+  --icon: var(--copy-icon) !important;
+}
+
+.vc-ranb-button {
+  --icon: var(--checkmark-icon) !important;
+  --icon-button-size: var(--guildbar-avatar-size) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.vc-ranb-button:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.vc-ranb-button:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.vc-ranb-button {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.vc-ranb-button:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.vc-ranb-button::before {
+  content: "" !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.vc-ranb-button > * {
+  display: none !important;
+}
+.vc-ranb-button {
+  anchor-name: --tooltip-u6fl5a9 !important;
+}
+.vc-ranb-button:hover::after {
+  backdrop-filter: blur(3px) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  padding: 6px 10px !important;
+  display: block !important;
+  position: fixed !important;
+  position-anchor: --tooltip-u6fl5a9 !important;
+  left: calc(anchor(right) + var(--spacing)) !important;
+  z-index: 999 !important;
+  top: calc(anchor(top) + (var(--icon-button-size) - 30px) / 2) !important;
+  : anchor() !important;
+  pointer-events: none !important;
+}
+.vc-ranb-button {
+  font-size: 0 !important;
+  border-radius: 50% !important;
+  margin: auto !important;
+  min-height: var(--guildbar-avatar-size) !important;
+}
+.vc-ranb-button::after {
+  content: "Read all" !important;
+}
+
+.vc-toolbox-btn {
+  --window_fg_color: transparent !important;
+}
+.vc-toolbox-btn svg {
+  display: initial !important;
+}
+
+.vc-addon-card {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.vc-addon-card:first-child {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+}
+.vc-addon-card:last-child {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  border: none !important;
+}
+.vc-addon-card:only-child {
+  border-radius: var(--card_radius) !important;
+}
+.vc-addon-card.vc-addon-card-disabled {
+  opacity: 1 !important;
+}
+.vc-addon-card:hover {
+  transform: unset !important;
+}
+
+.vc-addon-header {
+  gap: var(--spacing) !important;
+}
+
+.vc-addon-note {
+  height: unset !important;
+}
+
+.vc-plugin-ui-elements-button {
+  --icon: var(--go-next-icon) !important;
+  position: relative !important;
+}
+.vc-plugin-ui-elements-button::before, .vc-plugin-ui-elements-button::after {
+  content: "" !important;
+  position: absolute !important;
+  right: 16px !important;
+}
+.vc-plugin-ui-elements-button::before {
+  transition: var(--button_transition) !important;
+  border-radius: var(--button_radius) !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.vc-plugin-ui-elements-button:hover::before {
+  background-color: var(--selected_hover_color) !important;
+}
+.vc-plugin-ui-elements-button:active::before {
+  background-color: var(--selected_active_color) !important;
+}
+.vc-plugin-ui-elements-button::after {
+  display: block !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  margin: calc(var(--spacing) * 1.5) !important;
+}
+.vc-plugin-ui-elements-button {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  margin: 0 !important;
+}
+.vc-plugin-ui-elements-button-arrow {
+  display: none !important;
+}
+
+.vc-plugins-grid {
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  gap: 0 !important;
+  border: none !important;
+  grid-template-columns: 1fr !important;
+}
+
+.vc-plugins-info-button {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.vc-plugins-info-button:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.vc-plugins-info-button:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.vc-plugins-info-button {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.vc-plugins-info-button:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.vc-plugins-info-button::before {
+  content: "" !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.vc-plugins-info-button > * {
+  display: none !important;
+}
+.vc-plugins-info-button {
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+}
+.vc-plugins-info-button::before {
+  display: none !important;
+}
+.vc-plugins-info-button svg {
+  display: initial !important;
+}
+
+.vc-plugins-info-card {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  gap: var(--spacing) !important;
+  height: unset !important;
+}
+
+.vc-plugins-info-icon {
+  color: var(--card_fg_color) !important;
+}
+.vc-plugins-info-icon.vc-cog-wheel {
+  --icon: var(--settings-icon) !important;
+}
+
+.vc-plugins-restart-button {
+  margin: 0 !important;
+}
+
+.vc-settings-card {
+  margin-bottom: 34px !important;
+}
+
+.vc-settings-quickActions-card {
+  background-color: transparent !important;
+  gap: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
+}
+
+.vc-settings-quickActions-img {
+  --icon: var(--link-icon) !important;
+  margin-left: auto !important;
+  margin-right: calc((var(--icon-button-size) - var(--icon-size)) / 2) !important;
+  order: 1 !important;
+}
+
+.vc-settings-quickActions-pill {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.vc-settings-quickActions-pill:first-child {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+}
+.vc-settings-quickActions-pill:last-child {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  border: none !important;
+}
+.vc-settings-quickActions-pill:only-child {
+  border-radius: var(--card_radius) !important;
+}
+.vc-settings-quickActions-pill {
+  position: relative !important;
+}
+.vc-settings-quickActions-pill::before, .vc-settings-quickActions-pill::after {
+  content: "" !important;
+  position: absolute !important;
+  right: 16px !important;
+}
+.vc-settings-quickActions-pill::before {
+  transition: var(--button_transition) !important;
+  border-radius: var(--button_radius) !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.vc-settings-quickActions-pill:hover::before {
+  background-color: var(--selected_hover_color) !important;
+}
+.vc-settings-quickActions-pill:active::before {
+  background-color: var(--selected_active_color) !important;
+}
+.vc-settings-quickActions-pill::after {
+  display: block !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  margin: calc(var(--spacing) * 1.5) !important;
+}
+.vc-settings-quickActions-pill:hover {
+  transform: none !important;
+}
+.vc-settings-quickActions-pill::after {
+  display: none !important;
+}
+
+.vc-settings-tab-bar {
+  margin-block: 0 16px !important;
+}
+
+.vc-settings-theme-grid {
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  gap: 0 !important;
+}
+
+.vcd-settings-category {
+  margin-bottom: 34px !important;
+}
+
+.vcd-settings-category-content {
+  gap: 0 !important;
+}
+
+.vc-special-card {
+  background-color: color-mix(in srgb, #dc8add 50%, transparent) !important;
+}
+
+.vc-special-card-flex {
+  align-items: center !important;
+}
+.vc-special-card-flex .vc-donate-button {
+  background-color: var(--accent-bg-color) !important;
+  color: var(--accent_fg_color) !important;
+}
+.vc-special-card-flex .vc-donate-button:hover {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 95%, rgb(0, 0, 6)) !important;
+}
+.vc-special-card-flex .vc-donate-button:active {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 70%, rgb(0, 0, 6)) !important;
+}
+.vc-special-card-flex .vc-special-image-container {
+  background-color: transparent !important;
+}
+.vc-special-card-flex .vc-special-title {
+  color: inherit !important;
+}
+
+.vc-plugin-modal-header {
+  align-items: center !important;
+  box-shadow: var(--elevation-low) !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  padding-inline: calc(var(--spacing) + var(--titlebar-button-spacing) + var(--titlebar-button-size)) !important;
+  margin: 0 !important;
+  height: var(--headerbar-height) !important;
+}
+.vc-plugin-modal-header .vc-text-base {
+  text-align: center !important;
+}
+
+.vc-settings-modal-content {
+  text-align: start !important;
+  margin: 0 !important;
+}
+.vc-settings-modal-content * {
+  box-sizing: border-box !important;
+}
+.vc-settings-modal-content .vc-text-lg.vc-margin-top-16 {
+  margin-block: 34px 16px !important;
+}
+
+.vc-plugins-setting-content {
+  display: grid !important;
+  grid-template-columns: 60% 40% !important;
+}
+.vc-plugins-setting-content .vc-switch-container {
+  margin-left: auto !important;
+}
+
+.vc-plugins-setting-section {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.vc-plugins-setting-section:first-child {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+}
+.vc-plugins-setting-section:last-child {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  border: none !important;
+}
+.vc-plugins-setting-section:only-child {
+  border-radius: var(--card_radius) !important;
+}
+
+.vc-plugins-settings {
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  gap: 0 !important;
+  padding: 0 !important;
+}
+
+.vc-settings-modal-link-icon {
+  border: none !important;
+}
+
+.vc-settings-modal-links {
+  gap: var(--spacing) !important;
+}
+.vc-settings-modal-links > * {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.vc-settings-modal-links > *:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.vc-settings-modal-links > *:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.vc-settings-modal-links > * {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.vc-settings-modal-links > *:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.vc-settings-modal-links > *::before {
+  content: "" !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.vc-settings-modal-links > * > * {
+  display: none !important;
+}
+.vc-settings-modal-link-button[aria-label="View more info"] {
+  --icon: var(--info-icon) !important;
+}
+.vc-settings-modal-link-button[aria-label="View source code"] {
+  --icon: var(--code-icon) !important;
+}
+
+.vcd-screen-picker-card:not(.vcd-screen-picker-preview) {
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+:where(.vcd-screen-picker-card:not(.vcd-screen-picker-preview) > :not(:first-child)) {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+:where(.vcd-screen-picker-card:not(.vcd-screen-picker-preview) > :not(:first-child)):first-child {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+}
+:where(.vcd-screen-picker-card:not(.vcd-screen-picker-preview) > :not(:first-child)):last-child {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  border: none !important;
+}
+:where(.vcd-screen-picker-card:not(.vcd-screen-picker-preview) > :not(:first-child)):only-child {
+  border-radius: var(--card_radius) !important;
+}
+:where(.vcd-screen-picker-card:not(.vcd-screen-picker-preview) > :not(:first-child)) {
+  margin: 0 !important;
+}
+.vcd-screen-picker-card:not(.vcd-screen-picker-preview) section {
+  display: grid !important;
+  grid-template-columns: 35% 65% !important;
+}
+
+.vcd-screen-picker-modal {
+  text-align: start !important;
+}
+.vcd-screen-picker-modal * {
+  box-sizing: border-box !important;
+}
+.vcd-screen-picker-modal .vc-h4 {
+  margin-block-end: 16px !important;
+}
+.vcd-screen-picker-modal .vc-h5 {
+  font-weight: normal !important;
+  margin-block: calc(var(--spacing) + 1px) !important;
+}
+
+.vcd-screen-picker-option-radio {
+  transition: var(--toggle_transition) !important;
+  border-radius: calc(var(--button_radius) - var(---group-padding)) !important;
+  font-weight: bold !important;
+  padding-left: calc(11px - var(---group-padding)) !important;
+  padding-right: calc(11px - var(---group-padding)) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  min-width: 34px !important;
+  min-height: calc(34px - var(---group-padding) * 2) !important;
+}
+.vcd-screen-picker-option-radio:hover {
+  background-color: var(--hover_color) !important;
+}
+.vcd-screen-picker-option-radio:active {
+  background-color: var(--active_color) !important;
+}
+.vcd-screen-picker-option-radio[data-checked=true] {
+  background-color: var(--active-toggle-bg-color) !important;
+  color: var(--active-toggle-fg-color) !important;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 6, 0.07), 0 2px 6px 2px rgba(0, 0, 6, 0.03) !important;
+}
+.vcd-screen-picker-option-radio[data-checked=true]:disabled {
+  background-color: color-mix(in srgb, var(--active-toggle-bg-color) var(--disabled-opacity), transparent) !important;
+  box-shadow: none !important;
+}
+.vcd-screen-picker-option-radio:not(:last-child) {
+  ---separator-opacity: 1 !important;
+  ---separator-width: 1px !important;
+  margin-right: var(---group-padding) !important;
+}
+.vcd-screen-picker-option-radio:not(:last-child)::after {
+  content: "" !important;
+  position: absolute !important;
+  right: calc(var(---group-padding) * -1) !important;
+  width: var(---separator-width) !important;
+  height: 100% !important;
+  opacity: var(---separator-opacity) !important;
+  background-color: color-mix(in srgb, currentColor 25%, transparent) !important;
+  margin: var(---group-padding) var(---separator-width) !important;
+}
+@media not (prefers-reduced-motion) {
+  .vcd-screen-picker-option-radio:not(:last-child)::after {
+    transition: opacity 200ms var(--ease-out-quad) !important;
+  }
+}
+.vcd-screen-picker-option-radio:is(:hover, [data-checked=true], :has(+ .vcd-screen-picker-option-radio:is(:hover, [data-checked=true]))) {
+  ---separator-opacity: 0 !important;
+}
+.vcd-screen-picker-option-radio {
+  background-color: transparent !important;
+  border: none !important;
+}
+.vcd-screen-picker-option-radio .vc-text-base {
+  color: inherit !important;
+}
+
+.vcd-screen-picker-option-radios {
+  ---group-padding: 3px !important;
+  background: color-mix(in srgb, currentColor 10%, transparent) !important;
+  border-radius: var(--button_radius) !important;
+  padding: var(---group-padding) !important;
+}
+
+.vcd-screen-picker-preview {
+  margin-block-end: 34px !important;
+}
+
+.vcd-screen-picker-quality {
+  gap: 0 !important;
+  margin: 0 !important;
+  flex-direction: column !important;
+}
+.vcd-screen-picker-quality p {
+  display: none !important;
+}
+
+.vcd-screen-picker-screen-label {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.vcd-screen-picker-screen-label:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.vcd-screen-picker-screen-label:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.vcd-screen-picker-screen-label {
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  height: 34px !important;
+}
+.vcd-screen-picker-screen-label * {
+  font: inherit !important;
+}
+.vcd-screen-picker-screen-label svg {
+  display: none !important;
+}
+.vcd-screen-picker-screen-label {
+  outline: none !important;
+  height: unset !important;
+}
+
+.vcd-screen-picker-screen-name {
+  margin-block-start: 5px !important;
+}
+
+.vcd-screen-picker-quality:nth-child(2) {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.vcd-screen-picker-quality-section {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.vcd-screen-picker-quality-section:first-child {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+}
+.vcd-screen-picker-quality-section#hack {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  border: none !important;
+}
+
+.vcd-screen-picker-venmic-settings {
+  gap: 0 !important;
+}
+
+.vc-plugin-ui-elements-modal-content {
+  text-align: start !important;
+  gap: 34px !important;
+}
+.vc-plugin-ui-elements-modal-content * {
+  box-sizing: border-box !important;
+}
+.vc-plugin-ui-elements-modal-content section > .vc-text-sm {
+  margin-block: var(--spacing) 16px !important;
+}
+
+.vc-plugin-ui-elements-switches {
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  gap: 0 !important;
+}
+
+.vc-plugin-ui-elements-switches-row {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.vc-plugin-ui-elements-switches-row:first-child {
+  border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+}
+.vc-plugin-ui-elements-switches-row:last-child {
+  border-radius: 0 0 var(--card_radius) var(--card_radius) !important;
+  border: none !important;
+}
+.vc-plugin-ui-elements-switches-row:only-child {
+  border-radius: var(--card_radius) !important;
+}

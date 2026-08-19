@@ -1,0 +1,146 @@
+.autocomplete__13533 {
+  background-color: var(--popover_bg_color) !important;
+  border: 1px solid rgba(0, 0, 0, 0.14) !important;
+  border-radius: var(--popover_radius) !important;
+  box-shadow: var(--popover_shadow) !important;
+  padding: 8px !important;
+  padding: 0 !important;
+  inset-inline: 0 !important;
+}
+
+.contentTitle__13533 {
+  color: var(--window_fg_muted) !important;
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  padding: 4px var(--menu_padding) !important;
+}
+
+.divider__13533 {
+  padding: var(--menu_margin) 0 !important;
+}
+.divider__13533::after {
+  background-color: color-mix(in srgb, currentColor 50%, transparent) !important;
+}
+
+.scroller__6b0e0:not(.scroller_affa7e) {
+  padding: var(--menu_padding) !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRow__13533 {
+  padding: 0 !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRow__13533[aria-selected=true] > .base__13533 {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRow__13533 > .base__13533 {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRow__13533 > .base__13533:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRow__13533 > .base__13533:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRow__13533 > .base__13533 {
+  background-color: transparent !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 var(--menu_padding) !important;
+  height: 32px !important;
+  transition: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRowContent__13533 {
+  gap: var(--spacing) !important;
+  flex-grow: 1 !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRowContent__13533 > * {
+  margin: 0 !important;
+  text-align: start !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRowContentPrimary__13533 {
+  width: 50% !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRowContentPrimary__13533:first-child {
+  --margin: calc(24px + var(--spacing)) !important;
+  margin-left: var(--margin) !important;
+  width: calc(50% - var(--margin)) !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .autocompleteRowContentSecondary__13533 {
+  font: inherit !important;
+  width: 50% !important;
+}
+.scroller__6b0e0:not(.scroller_affa7e) .base__13533 {
+  padding: 0 !important;
+}
+
+.listBox__2e223 {
+  padding: 0 !important;
+}
+.listBoxItemContent__2e223 {
+  padding: 0 !important;
+  min-height: unset !important;
+}
+.listBoxItemContent__2e223:not(.inInput__2e223) {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.listBoxItemContent__2e223:not(.inInput__2e223):hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.listBoxItemContent__2e223:not(.inInput__2e223):active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.listBoxItemContent__2e223:not(.inInput__2e223) {
+  background-color: transparent !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 var(--menu_padding) !important;
+  height: 32px !important;
+  transition: none !important;
+  height: 40px !important;
+}
+
+.listBox__2e223:not(:focus-within) .listBoxItem__2e223[data-focus-visible="true"] {
+    background-color: transparent;
+}
+
+.listBoxItem__2e223:focus:not([aria-disabled]), .mouse-mode .listBoxItem__2e223:hover:not([aria-disabled]) {
+    background-color: transparent;
+}
+
+.listBox__2e223:not(:focus-within) .listBoxItem__2e223[data-focus-visible="true"] .listBoxItemContent__2e223 {
+    background-color: var(--selected_color) !important;
+    border-radius: var(--button_radius) !important;
+}
+
+.listBox__2e223:not(:focus-within) .listBoxItem__2e223[data-focus-visible="true"] .listBoxItemContent__2e223:hover {
+    background-color: var(--selected_hover_color) !important;
+}
+
+.localizedName__2d71b {
+    display: none;
+}
+
+.selectDropdown__0edde {
+  background-color: var(--popover_bg_color) !important;
+  border: 1px solid rgba(0, 0, 0, 0.14) !important;
+  border-radius: var(--popover_radius) !important;
+  box-shadow: var(--popover_shadow) !important;
+  padding: 8px !important;
+}
+
+.selectedIcon__2e223 {
+  --icon: var(--checkmark-icon) !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  margin: var(--space-12) var(--menu_padding) !important;
+  min-width: unset !important;
+}
+.selectedIcon__2e223 * {
+  display: none !important;
+}

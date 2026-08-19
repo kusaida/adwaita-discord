@@ -1,0 +1,825 @@
+/* fix store padding */
+.panel__6131a:has(.bd-controls-basic) {
+  max-width: none !important;
+}
+
+/* switches */
+.bd-switch {
+  --percentage: 15.25% !important;
+  --spacing: var(--spacing-05x) !important;
+  --swatch-size: 20px !important;
+
+  position: relative !important;
+
+  width: calc(var(--swatch-size) * 2 + var(--spacing) * 2) !important;
+  height: calc(var(--swatch-size) + var(--spacing) * 2) !important;
+}
+
+
+.bd-switch-body {
+  position: absolute !important;
+  inset: 0 !important;
+
+  box-sizing: border-box !important;
+
+  padding: var(--spacing) !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  background-color: color-mix(
+    in srgb,
+    var(--window_fg_color) var(--percentage),
+    transparent
+  ) !important;
+
+  border-radius: 999px !important;
+
+  transition: var(--switch-transition) !important;
+}
+
+
+.bd-switch-body::before {
+  content: "" !important;
+
+  display: block !important;
+
+  width: var(--swatch-size) !important;
+  height: var(--swatch-size) !important;
+
+  background-color: #fff !important;
+
+  border-radius: 50% !important;
+
+  box-shadow:
+    0 2px 4px color-mix(in srgb, black 20%, transparent) !important;
+
+  transform: translateX(0) !important;
+
+  transition: var(--switch-transition) !important;
+}
+
+.bd-switch-body > svg {
+  display: none !important;
+}
+
+.bd-switch:hover .bd-switch-body {
+  --percentage: 22.5% !important;
+}
+
+.bd-switch:active .bd-switch-body {
+  --percentage: 8% !important;
+}
+
+.bd-switch:has(input:checked) .bd-switch-body {
+  background-color: var(--accent-bg-color) !important;
+}
+
+
+.bd-switch:has(input:checked) .bd-switch-body::before {
+  transform: translateX(var(--swatch-size)) !important;
+}
+
+.bd-switch:has(input:checked):hover .bd-switch-body {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 95%, rgb(0, 0, 6)) !important;
+}
+
+.bd-switch:has(input:checked):active .bd-switch-body {
+  background-color: var(--accent_bg_color) !important;
+}
+
+.bd-switch:has(input:disabled) {
+  opacity: var(--disabled-opacity) !important;
+}
+
+.bd-text-12 {
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+}
+
+.bd-text-muted,
+.bd-version-info,
+.bd-addon-store-card-author,
+.bd-addon-store-card-description,
+.bd-addon-store-card-downloads,
+.bd-addon-store-card-likes {
+    color: var(--window_fg_muted) !important;
+    font-size: var(--document-font-size) !important;
+}
+
+.bd-version-info {
+    font-size: 12px !important;
+}
+
+.bd-label,
+.bd-settings-page-title,
+.bd-addon-title,
+.bd-sidebar-header {
+    color: var(--window_fg_color) !important;
+    font-family: var(--document-font-family) !important;
+    font-weight: 700 !important;
+    font-size: var(--document-font-size) !important;
+}
+
+.bd-settings-page-title {
+    font-size: 14.96px !important;
+    margin-left: 200px;
+}
+
+.bd-addon-title {
+    margin-left: 150px;
+}
+
+.bd-settings-page-title-children,
+.bd-settings-title-extend {
+    color: var(--window_fg_muted) !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+
+.bd-settings-page-title-children {
+    margin-left: 150px;
+}
+
+/* BD sidebar */
+
+.bd-sidebar-header {
+    background: var(--secondary_sidebar_bg_color) !important;
+    border-inline-end: 1px solid var(--sidebar_border_color) !important;
+    height: var(--headerbar-height) !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 var(--spacing-2x) !important;
+}
+
+/* BD buttons */
+
+.bd-button {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+    color: var(--window_fg_color) !important;
+    border: none !important;
+    border-radius: var(--button_radius) !important;
+    padding: 5px 10px !important;
+    font-family: var(--document-font-family) !important;
+    font-size: var(--document-font-size) !important;
+    font-weight: bold !important;
+    height: 34px !important;
+    min-height: 24px !important;
+    transition: var(--button_transition) !important;
+    cursor: pointer !important;
+}
+
+.bd-button:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-button:active {
+    background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+
+.bd-button:disabled {
+    opacity: var(--dim-level-opacity) !important;
+    cursor: not-allowed !important;
+}
+
+.bd-button-color-brand,
+.bd-button-filled.bd-button-color-brand {
+    background-color: var(--accent-bg-color) !important;
+    color: var(--accent_fg_color) !important;
+}
+
+.bd-button-color-brand:hover {
+    background-color: color-mix(in srgb, var(--accent-bg-color) 95%, rgb(0, 0, 6)) !important;
+}
+
+.bd-button-color-brand:active {
+    background-color: color-mix(in srgb, var(--accent-bg-color) 70%, rgb(0, 0, 6)) !important;
+}
+
+.bd-button-color-transparent,
+.bd-button-blank {
+    background-color: transparent !important;
+    color: var(--window_fg_color) !important;
+    border: none !important;
+    padding: 0 !important;
+    height: auto !important;
+}
+
+.bd-button-color-transparent:hover {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+}
+
+.bd-button-icon {
+    max-width: var(--icon-button-size) !important;
+    min-width: var(--icon-button-size) !important;
+    height: var(--icon-button-size) !important;
+    padding: 0 !important;
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+    border: none !important;
+    border-radius: 50% !important;
+}
+
+.bd-button-icon:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-button-icon:active {
+    background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+}
+
+.bd-button-content {
+    display: flex !important;
+    align-items: center !important;
+    gap: var(--spacing) !important;
+}
+
+.bd-button-grow {
+    flex: 1 !important;
+    background-color: transparent !important;
+}
+
+.bd-button-medium {
+    height: 34px !important;
+    font-size: var(--document-font-size) !important;
+}
+
+.bd-changelog-button {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+    border-radius: var(--button_radius) !important;
+    transition: var(--button_transition) !important;
+}
+
+.bd-changelog-button:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+/* BD icons */
+
+.bd-icon,
+.bd-flower-star {
+    color: var(--window_fg_color) !important;
+    width: var(--icon-size) !important;
+    height: var(--icon-size) !important;
+}
+
+/* BD search */
+
+.bd-search-wrapper {
+    background-color: color-mix(in srgb, currentColor 10%, var(--window_bg_color)) !important;
+    border-radius: var(--button_radius) !important;
+    border: none !important;
+    transition: var(--focus_transition) !important;
+    outline: 2px solid transparent !important;
+    outline-offset: -2px !important;
+    padding: 0 6px;
+}
+
+.bd-search-wrapper:focus-within {
+    outline-color: color-mix(in srgb, var(--accent-bg-color) 50%, transparent) !important;
+}
+
+.bd-search {
+    order: 2;
+    background: transparent !important;
+    border: none !important;
+    color: var(--window_fg_color) !important;
+    font-family: var(--document-font-family) !important;
+    font-size: var(--document-font-size) !important;
+    padding: 8px 9px !important;
+    outline: none !important;
+}
+
+.bd-search-wrapper:before {
+    content: "";
+    position: inherit;
+    z-index: 1;
+    width: 16px;
+    height: 16px;
+    background-color: currentColor;
+    mask-image: var(--search-icon);
+}
+
+
+.bd-search::placeholder {
+    color: var(--window_fg_muted) !important;
+}
+
+/* BD select/dropdown */
+
+.bd-select-wrapper {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.bd-select {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+    color: var(--window_fg_color) !important;
+    border: none !important;
+    border-radius: var(--button_radius) !important;
+    padding: 5px 10px !important;
+    font-family: var(--document-font-family) !important;
+    font-size: var(--document-font-size) !important;
+    font-weight: bold !important;
+    height: 34px !important;
+    transition: var(--button_transition) !important;
+    cursor: pointer !important;
+    min-width: 0 !important;
+}
+
+.bd-select:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-select-transparent {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.bd-select-transparent:hover {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+}
+
+.bd-select-value {
+    color: var(--window_fg_color) !important;
+    font-size: var(--document-font-size) !important;
+}
+
+.bd-select-arrow {
+    color: var(--window_fg_muted) !important;
+    width: var(--icon-size) !important;
+    height: var(--icon-size) !important;
+}
+
+.bd-select-options {
+    background-color: var(--popover_bg_color) !important;
+    border: 1px solid rgba(0, 0, 0, 0.14) !important;
+    border-radius: var(--popover_radius) !important;
+    box-shadow: var(--popover_shadow) !important;
+    padding: var(--menu_margin) !important;
+    z-index: 1000 !important;
+}
+
+.bd-select-option {
+    background-color: transparent !important;
+    color: var(--popover_fg_color) !important;
+    border-radius: var(--button_radius) !important;
+    padding: 0 var(--menu_padding) !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    font-size: var(--document-font-size) !important;
+    cursor: pointer !important;
+    transition: var(--button_transition) !important;
+}
+
+.bd-select-option:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-select-option:active {
+    background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+
+/* BD cards (store) */
+
+.bd-addon-store-card {
+    background-color: var(--card_bg_color) !important;
+    color: var(--card_fg_color) !important;
+    border-radius: var(--card_radius) !important;
+    box-shadow: var(--elevation-medium) !important;
+    transition: var(--backdrop_transition) !important;
+    overflow: hidden !important;
+}
+
+.bd-addon-store-card:hover {
+    background-color: color-mix(in srgb, currentColor 3%, var(--card_bg_color)) !important;
+}
+
+.bd-addon-store-card-body {
+    padding: 10px 16px !important;
+}
+
+.bd-addon-store-card-name {
+    color: var(--card_fg_color) !important;
+    font-weight: 700 !important;
+    font-size: var(--document-font-size) !important;
+    overflow: visible !important;
+}
+
+.bd-addon-store-card-splash,
+.bd-addon-store-card-preview {
+    border-radius: var(--card_radius) var(--card_radius) 0 0 !important;
+    overflow: hidden !important;
+    margin-bottom: 0;
+}
+
+.bd-addon-store-card-preview-img {
+    object-fit: unset !important;
+}
+
+.bd-addon-store-card-tag {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+    border-radius: var(--button_radius) !important;
+    padding: 2px 8px !important;
+    font-size: 12px !important;
+    color: var(--window_fg_muted) !important;
+    border: 2px solid transparent;
+}
+
+.bd-addon-store-card-tag-selected {
+    border-color: var(--brand-500) !important;
+}
+
+.bd-addon-store-card-tags {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: var(--spacing) !important;
+}
+
+.bd-addon-store-card-actions {
+    display: flex !important;
+    align-items: center !important;
+    gap: var(--spacing) !important;
+    padding: var(--spacing) 0 !important;
+}
+
+.bd-addon-store-card-info {
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    gap: var(--spacing) !important;
+    color: var(--window_fg_muted) !important;
+    border-top: 1px solid color-mix(in srgb, currentColor 25%, transparent) !important;
+    border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent) !important;
+    padding: 4px;
+}
+
+.bd-addon-store-card-value {
+    color: var(--window_fg_color) !important;
+    font-weight: bold !important;
+}
+
+.bd-addon-store-card-dot {
+    display: none !important;
+}
+
+.bd-addon-store-card-spacer {
+    flex: 1 !important;
+}
+
+.theme-dark .bd-addon-store-card-author-mask {
+    background-color: transparent;
+}
+
+.bd-addon-store-card-author-img {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+}
+
+.full-motion .bd-addon-store-card:hover {
+    transform: none !important;
+}
+
+/* BD store layout */
+
+.bd-addon-store {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    background-color: var(--window_bg_color) !important;
+}
+
+.bd-addon-dropdowns,
+.bd-addon-controls,
+.bd-controls,
+.bd-controls-basic,
+.bd-controls-advanced {
+    display: flex !important;
+    align-items: center !important;
+    gap: var(--spacing) !important;
+    flex-wrap: wrap !important;
+    margin-right: var(--spacing);
+}
+
+.bd-addon-controls .bd-button {
+    background-color: #0000 !important;
+    padding: 3px 4px !important;
+}
+
+.bd-addon-controls .bd-button:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-select.bd-select-transparent {
+  align-items: center;
+}
+
+  .bd-store-card {
+    background-color: var(--card_bg_color);
+    border: none;
+    border-radius: var(--radius-lg);
+    padding: 10px 16px;
+}
+
+.bd-store-card-caret {
+  padding-top: 3px;
+}
+
+/* BD paginator */
+
+.bd-paginator {
+    display: flex !important;
+    align-items: center !important;
+    gap: var(--spacing) !important;
+    justify-content: center !important;
+}
+
+.bd-paginator-back,
+.bd-paginator-next {
+    background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+    color: var(--window_fg_color) !important;
+    border: none !important;
+    border-radius: var(--button_radius) !important;
+    width: var(--icon-button-size) !important;
+    height: var(--icon-button-size) !important;
+    transition: var(--button_transition) !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.bd-paginator-back:hover,
+.bd-paginator-next:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-paginator-back:active,
+.bd-paginator-next:active {
+    background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+
+.bd-paginator-bubbles {
+    display: flex !important;
+    gap: var(--spacing) !important;
+    align-items: center !important;
+}
+
+.bd-paginator-bubble {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+    transition: var(--button_transition) !important;
+    cursor: pointer !important;
+}
+
+.bd-paginator-bubble:hover,
+.bd-paginator-bubble.selected {
+    background-color: var(--accent-bg-color) !important;
+}
+
+/* BD scrollbar */
+
+.bd-scroller-thin::-webkit-scrollbar-thumb {
+    background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+    transition: var(--scrollbar_transition) !important;
+}
+
+.bd-scroller-thin::-webkit-scrollbar-thumb:hover {
+    background-color: color-mix(in srgb, currentColor 40%, transparent) !important;
+}
+
+.bd-scroller-thin::-webkit-scrollbar-thumb:active {
+    background-color: color-mix(in srgb, currentColor 60%, transparent) !important;
+}
+
+.bd-scroller-thin::-webkit-scrollbar {
+    width: var(--scrollbar-width) !important;
+}
+
+/* BD themes */
+
+.bd-store-card-icon {
+    background: transparent;
+    padding: 0;
+}
+
+.bd-addon-list {
+    background: var(--card_bg_color);
+    border-radius: var(--radius-lg);
+}
+
+.bd-addon-list .bd-footer .bd-links .bd-addon-button {
+    width: var(--icon-button-size) !important;
+    height: var(--icon-button-size) !important;
+    padding: 0 !important;
+    justify-content: center;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 50% !important;
+}
+
+.bd-addon-list:hover .bd-footer:hover .bd-links:hover .bd-addon-button:hover {
+    background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-addon-list .bd-footer {
+    justify-content: flex-end;
+    gap: var(--spacing);
+    align-items: center;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    right: 64px;
+    transform: translateY(-50%);
+}
+
+.bd-addon-list .bd-addon-card {
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding: 6px 16px;
+    justify-content: center;
+    height: 60px;
+}
+
+.bd-addon-list .bd-addon-card:not(:last-child) {
+    border-bottom: 1px solid var(--card_shade_color) !important;
+}
+
+.bd-addon-list .bd-addon-header {
+    color: var(--text-strong);
+    background: transparent;
+    border-bottom: none;
+    border-radius: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.bd-addon-list .bd-description {
+    max-height: 14px;
+    color: var(--text-muted);
+    margin-bottom: 0;
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 4px;
+    overflow-y: auto;
+}
+
+.bd-controls>.bd-addon-button {
+    width: var(--icon-button-size) !important;
+    height: var(--icon-button-size) !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: var(--button_radius) !important;
+}
+
+.bd-controls>.bd-addon-button:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+
+.bd-addon-card {
+    position: relative;
+}
+
+.bd-description-wrap {
+    display: none;
+}
+/* are u sure popup */
+
+.bd-modal-root {
+    background-color: var(--popover_bg_color);
+    border-radius: var(--radius-lg);
+    border: none;
+}
+
+.bd-modal-small {
+  min-height: 0;
+}
+
+.bd-modal-footer {
+    background-color: transparent;
+    gap: var(--spacing);
+}
+
+  /* BD settings */
+
+.bd-settings-group.collapsible .bd-settings-title {
+    margin-bottom: 0;
+    background: var(--card_bg_color);
+    padding: 10px 16px;
+    min-height: calc(var(--icon-button-size) + 20px) !important;
+    border-bottom: 1px solid var(--card_shade_color);
+}
+
+.bd-settings-group~.bd-settings-group .bd-settings-title {
+    margin-top: 0;
+}
+
+.bd-setting-item,
+.bd-empty-updates {
+    margin-bottom: 0;
+    padding: 10px 16px;
+}
+
+.bd-setting-item:not(:last-child) {
+    border-bottom: 1px solid var(--card_shade_color);
+}
+
+.bd-divider {
+    display: none;
+}
+
+.bd-settings-group:first-child > .bd-settings-title.bd-settings-group-title {
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.bd-settings-group:last-child > .bd-settings-title.bd-settings-group-title {
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    transition: border-radius 50ms ease-out;
+}
+
+.bd-settings-group.collapsible.expanded:last-child > .bd-settings-title.bd-settings-group-title {
+    border-radius: 0;
+}
+
+.bd-settings-group:last-child > .bd-settings-container {
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+
+.bd-settings-container {
+    background: var(--card_content_color);
+    padding: 0;
+}
+
+.bd-settings-group.collapsible .bd-settings-title:before {
+    background-color: transparent;
+}
+
+.bd-setting-note {
+    color: var(--window_fg_muted) !important;
+    font-size: var(--document-font-size) !important;
+    margin-top: 0;
+    font-weight: 400;
+    line-height: 16px;
+    width: 90%;
+}
+
+.bd-container {
+    background: var(--card_content_color);
+    border: 3px solid var(--brand-500);
+    color: var(--text-default);
+    border-radius: var(--radius-lg);
+    width: 487px;
+    margin: 16px 0;
+}
+
+.bd-box {
+    border-radius: var(--radius-sm);
+}
+
+.bd-number-input-wrapper {
+  gap: var(--spacing);
+  height: 28px
+}
+
+.bd-number-input {
+    order: 1;
+    background-color: transparent;
+    border: none;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.bd-number-input:not([min][max]) {
+    width: var(--icon-button-size);
+}
+
+.bd-button.bd-number-input-decrement {
+    order: 2;
+    height: 28px !important;
+    max-width: 28px !important;
+    min-width: 28px !important;
+}
+
+.bd-button.bd-number-input-increment {
+    order: 3;
+    height: 28px !important;
+    max-width: 28px !important;
+    min-width: 28px !important;
+}
+
+.bd-button.bd-button-icon svg {
+  width: 18px;
+}
+
+.bd-search-wrapper>svg {
+  display: none;
+}

@@ -1,0 +1,62 @@
+.iconContainer__235ca {
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
+
+.content__235ca {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+}
+
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+    background: var(--accent-bg-color);
+}
+
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
+    background: color-mix(in srgb, var(--accent-bg-color) 95%, rgb(0, 0, 6));
+}
+
+.volumeButtonIcon_a8e786 {
+    padding: 6px 5px;
+}
+
+.linkButtonIcon__972a0 {
+    color: inherit;
+}
+
+.aside_f58343 {
+  padding: 0;
+  border-inline-start: 1px solid var(--border-subtle);
+}
+
+:root .user-profile-sidebar.user-profile-sidebar-redesign {
+  border-radius: 0 !important;
+}
+
+.redesignFooter__272c7 {
+  padding: 30px 5px 0 5px;
+}
+
+.sidebar__409aa .navScroller__409aa > div {
+  display: none;
+}
+
+.user-profile-sidebar .inner_c0bea0 {
+    background: var(--background-base-lower);
+}
+
+/* NITRO */
+
+.productCardContainer_fcbddd {
+    border: 2px solid transparent;
+    border-radius: var(--radius-md);
+}
+
+.productCardContainer_fcbddd.hovered_fcbddd {
+    border-color: var(--accent-bg-color);
+}
+
+.controls__1feb0 {
+    justify-content: flex-start;
+}

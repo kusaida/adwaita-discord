@@ -1,0 +1,282 @@
+.actions__9a9f9 {
+  gap: var(--spacing) !important;
+}
+
+.container__9a9f9 {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  --banner-color: #7d7d83 !important;
+  background-color: color-mix(in srgb, var(--banner-color) 30%, var(--window_bg_color)) !important;
+  color: var(--window_fg_color) !important;
+  padding: var(--spacing) !important;
+}
+.container__9a9f9 * {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+.container__9a9f9 svg {
+  display: none !important;
+}
+:root:not(.app-focused) .container__9a9f9 {
+  opacity: var(--dim-level-opacity) !important;
+}
+.container__9a9f9 {
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.noticeRegion__23e6b,
+.notice__6131a {
+  padding: 0 !important;
+  position: relative !important;
+  width: 100% !important;
+  max-width: unset !important;
+  opacity: 1 !important;
+  transform: translateY(0%) translateZ(0px) !important;
+}
+
+.shrinkingContainer__9a9f9 {
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.button__201d5 {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.button__201d5:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.button__201d5:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.button__201d5 {
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  height: 34px !important;
+}
+.button__201d5 * {
+  font: inherit !important;
+}
+.button__201d5:disabled {
+  opacity: var(--dim-level-opacity) !important;
+}
+.button__201d5:where(.colorBrand__201d5) {
+  background-color: var(--accent-bg-color) !important;
+  color: var(--accent_fg_color) !important;
+}
+.button__201d5:where(.colorBrand__201d5):hover {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 95%, rgb(0, 0, 6)) !important;
+}
+.button__201d5:where(.colorBrand__201d5):active {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 70%, rgb(0, 0, 6)) !important;
+}
+.button__201d5:where(.colorRed__201d5) {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+  color: var(--destructive-color) !important;
+}
+.button__201d5:where(.colorRed__201d5):hover {
+  background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+}
+.button__201d5:where(.colorRed__201d5):active {
+  background-color: color-mix(in srgb, currentColor 35%, transparent) !important;
+}
+.button__201d5:where(.colorGreen__201d5) {
+  color: var(--success-color) !important;
+}
+.button__201d5:where(.lookBlank__201d5) {
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+.button__201d5 > div {
+  --button--underline-color: transparent !important;
+}
+
+.contentHeader_e9e3ed > button svg {
+  display: none !important;
+}
+
+.contentHeader_e9e3ed > button::before {
+  content: "" !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.button_a22cb0 {
+  --icon: var(--close-icon);
+  color: inherit !important;
+  display: var(--titlebar-close-button) !important;
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.button_a22cb0:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.button_a22cb0:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.button_a22cb0 {
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  height: 34px !important;
+}
+.button_a22cb0 * {
+  font: inherit !important;
+}
+.button_a22cb0 {
+  max-height: unset !important;
+}
+.button_a22cb0:where(.primary_a22cb0) {
+  background-color: var(--accent-bg-color) !important;
+  color: var(--accent_fg_color) !important;
+}
+.button_a22cb0:where(.primary_a22cb0):hover {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 95%, rgb(0, 0, 6)) !important;
+}
+.button_a22cb0:where(.primary_a22cb0):active {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 70%, rgb(0, 0, 6)) !important;
+}
+.button_a22cb0:where(.critical-primary_a22cb0), .button_a22cb0:where(.critical-secondary_a22cb0) {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+  color: var(--destructive-color) !important;
+}
+.button_a22cb0:where(.critical-primary_a22cb0):hover, .button_a22cb0:where(.critical-secondary_a22cb0):hover {
+  background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+}
+.button_a22cb0:where(.critical-primary_a22cb0):active, .button_a22cb0:where(.critical-secondary_a22cb0):active {
+  background-color: color-mix(in srgb, currentColor 35%, transparent) !important;
+}
+.button_a22cb0:where(.critical-primary_a22cb0, .critical-secondary_a22cb0) {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+  color: var(--destructive-color) !important;
+}
+.button_a22cb0:where(.critical-primary_a22cb0, .critical-secondary_a22cb0):hover {
+  background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+}
+.button_a22cb0:where(.critical-primary_a22cb0, .critical-secondary_a22cb0):active {
+  background-color: color-mix(in srgb, currentColor 35%, transparent) !important;
+}
+.button_a22cb0:where(:not(.hasText_a22cb0)), .button_a22cb0:where(.icon-only_a22cb0) {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.button_a22cb0:where(:not(.hasText_a22cb0)):hover, .button_a22cb0:where(.icon-only_a22cb0):hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.button_a22cb0:where(:not(.hasText_a22cb0)):active, .button_a22cb0:where(.icon-only_a22cb0):active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.button_a22cb0:where(:not(.hasText_a22cb0)), .button_a22cb0:where(.icon-only_a22cb0) {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.button_a22cb0:where(:not(.hasText_a22cb0)):disabled, .button_a22cb0:where(.icon-only_a22cb0):disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+
+.buttonChildrenWrapper_a22cb0 {
+  all: unset !important;
+}
+.buttonChildrenWrapper_a22cb0 [data-text-variant] {
+  all: inherit !important;
+}
+
+.chevronButton__0edde {
+  --icon: var(--down-icon) !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  padding: 0 !important;
+}
+
+.comboBoxInput__0edde {
+  padding: 0 !important;
+}
+
+.selectButton__0edde {
+  padding: 0 !important;
+  min-height: unset !important;
+}
+
+.selectField__0edde {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.selectField__0edde:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.selectField__0edde:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.selectField__0edde {
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  height: 34px !important;
+}
+.selectField__0edde * {
+  font: inherit !important;
+}
+.selectField__0edde svg {
+  display: none !important;
+}
+.selectField__0edde {
+  align-items: center !important;
+}
+
+.soundButtonSettingContainer__84bad {
+    position: relative !important;
+    width: 100%;
+    border-radius: var(--button_radius);
+    border: 2px solid transparent !important;
+    background-color: color-mix(in srgb, currentColor 10%, var(--window_bg_color)) !important;
+    height: var(--icon-button-size);
+}
+
+.select_a16aea {
+    align-items: center !important;
+    position: relative !important;
+    overflow: hidden !important;
+    width: 100%;
+    border-radius: var(--button_radius);
+    border: 2px solid transparent !important;
+    background-color: color-mix(in srgb, currentColor 10%, var(--window_bg_color)) !important;
+    height: var(--icon-button-size);
+}

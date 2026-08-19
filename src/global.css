@@ -1,0 +1,96 @@
+.vc-plugin-ui-elements-modal-content section > .vc-text-sm, .vc-plugins-setting-description, .vc-form-switch .vc-text-sm, .userTagUsername__63ed3, .message__5126c .repliedMessage_c19a55, .timestamp_c19a55, .embedFull__623de .embedAuthor__623de .embedAuthorName__623de[href], .embedFull__623de .embedFooterText__623de, .wrapperAudio_cf09d8 .metadataSize_cf09d8, .headerBar__49508 .container__49508 [data-text-variant], .peopleListItem_cc6179 .subtext__0a06e,
+.peopleListItem_cc6179 .text__19b6d, .searchResultChannelCategory__16eb0, .topic__6ec1a, .description_ddd181,
+[data-text-variant^=text-sm],
+[data-text-variant^=text-xs] {
+  color: var(--window_fg_muted) !important;
+  font-weight: 400 !important;
+  font-size: 14.3px !important;
+}
+
+.viewFullBio_f5f93a, .stackedBars__74017 .replyLabel__841c8, .anchor_edefb8 {
+  color: var(--accent-color) !important;
+  text-decoration: underline !important;
+}
+.viewFullBio_f5f93a:hover, .stackedBars__74017 .replyLabel__841c8:hover, .anchor_edefb8:hover {
+  color: hsl(from var(--accent-color) h calc(s * 1.1) calc(l * 1.1)) !important;
+}
+.viewFullBio_f5f93a:active, .stackedBars__74017 .replyLabel__841c8:active, .anchor_edefb8:active {
+  color: var(--accent-color) !important;
+}
+
+.wrapper__33d12 .title__33d12, .message__5126c .markup__75297 :is(h1, h2, h3) *, .embedProvider__623de, [data-text-variant^=heading-lg],
+[data-text-variant^=heading-x] {
+  font-weight: 800 !important;
+  font-size: 19.91px !important;
+}
+
+.searchResultGroup_a7e67f .channelNameText_a7e67f, .name_f37cb1, .title__9293f, [data-text-variant^=heading-md] {
+  font-weight: 800 !important;
+  font-size: 14.96px !important;
+}
+
+.vc-plugin-ui-elements-modal-content .vc-text-xl, .vc-plugin-ui-elements-switches-row, .vc-plugin-modal-header .vc-text-base, .vc-settings-modal-content .vc-text-lg.vc-margin-top-16, .vc-plugins-setting-title, .vc-plugin-ui-elements-button .vc-text-md, .vcd-settings-category-title, .vc-form-switch .vc-text-md, .vc-h4,
+.vc-h5, .menuItemLabelText_ce8328, .messageClickableContainer_cb862a .username_cb862a, .contentHeader_e9e3ed [data-text-variant], .contentColumn__23e6b > .defaultColor__4bd52:first-child,
+.contentColumn__23e6b .settingsPage_f131e9 > h3, .contentColumn__23e6b > div > .sectionTitle__7bffb > *, .standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) > .contentColumn__23e6b > section > h2:first-child,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) .vcd-settings-title,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) div:not([class]) > h2[data-text-variant="heading-lg/semibold"],
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) #boost_perks-tab > main > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) :is(.emojiSettings_e7d73e, .container__4b8d8) .sectionTitle__7bffb > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) .header_fa2640 > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) [aria-hidden=true][style="height: 60px;"] + div > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) .header__1de14,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) #access-tab > div > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) .breadcrumbs_befe67 > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) #guild_premium-tab > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) #guild_templates-tab > div > h2,
+.standardSidebarView__23e6b :where(.scrollerBase_d125d2, .scrollerBase__99f8c) .formTitle__5906b, .sidebarRegion__23e6b [role=tablist][aria-orientation=vertical]::before, .container__9bfb9 .accountNameText__9bfb9, .section_bf424d .header_bf424d [data-text-variant], .titleContainer__432f4 [data-text-variant="text-lg/semibold"], .username_c19a55, .container__4d95d .fileName__4d95d,
+.modalContent__4d95d .fileName__4d95d, .file__0ccae .fileNameLink__0ccae, .wrapperAudio_cf09d8 .metadataDownload_cf09d8, .peopleColumn__133bf h2, .peopleListItem_cc6179 .username__0a06e, .editorHeader_cf6da1 h3, .membersGroup_c8ffbb > span, .panelTitleContainer__37e49 > div, .name__20a53, .privateChannels_e6b769::before, .eyebrow__463b7:not(.numberBadge__463b7),
+.h1_b717a1,
+.h2_b717a1,
+.h3_b717a1,
+.h4_b717a1,
+.h5_b717a1, [data-text-variant^=text-md] {
+  font-weight: 700 !important;
+  font-size: 14.96px !important;
+}
+
+.messagesGroupHeaderWrap__0aee3 .messagesGroupHeader__0aee3, .wrapperCommon__29444 .name__29444, [data-text-variant^=heading-deprecated-12],
+[data-text-variant^=heading-sm] {
+  font-weight: 700 !important;
+  font-size: 12.98px !important;
+}
+
+html {
+  font-size: var(--document-font-size) !important;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--view_fg_color) 10%, transparent) !important;
+}
+.app-focused ::selection {
+  background-color: color-mix(in srgb, var(--accent-bg-color) 30%, transparent) !important;
+}
+
+[data-text-variant] {
+  line-height: 1.2 !important;
+  text-transform: none !important;
+}
+
+.eyebrow__463b7:not(.numberBadge__463b7),
+.h1_b717a1,
+.h2_b717a1,
+.h3_b717a1,
+.h4_b717a1,
+.h5_b717a1 {
+  letter-spacing: 0 !important;
+  margin-bottom: 16px !important;
+}
+
+.anchor_edefb8 {
+  opacity: 1 !important;
+}
+
+.inner_c0bea0 .markup__75297 [data-text-variant], .role_af3987 [data-text-variant], .tooltip_fa450d *, .sidebar__409aa .fixedContent__409aa .item_caf372:hover .textContainer__3cfcf, .wrapper__33d12 .text__33d12, .wrapper__2ea32 [data-text-variant="text-xs/semibold"], .name__2ea32, .icon_c322aa:hover::after, .search_c322aa .searchToken_bd8186, .topicClickTarget__6ec1a:hover::after, [role=tablist][aria-orientation=vertical] [role=tab], .vc-ranb-button:hover::after, .page__91dc3 .titleContainer_e29cd7 .title_e29cd7:hover > .titleText_e29cd7, .stackedBars__74017 .replyLabel__841c8, .container__0be77 .label__4c520, .embedDescription__623de, .embedTitle__623de, .searchHeader_ae7890 [data-text-variant], .headerChildren_f37cb1:hover::after, .searchBar_e6b769 > button:hover > * {
+  font-size: var(--document-font-size) !important;
+  font-weight: 600 !important;
+}

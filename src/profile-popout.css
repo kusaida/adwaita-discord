@@ -1,0 +1,145 @@
+.outer_c0bea0 {
+  --dialog-spacing: var(--space-xl) !important;
+  --role-button-size: 24px !important;
+  --role-spacing: 2px !important;
+  --role-height: calc(var(--role-button-size) + var(--role-spacing) * 2) !important;
+  border-radius: var(--window_radius) !important;
+}
+
+.role_af3987 {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 0 !important;
+  padding-left: var(--spacing-2x) !important;
+  overflow: hidden !important;
+  height: var(--role-height) !important;
+}
+.role_af3987 [data-text-variant] {
+  color: inherit !important;
+}
+.role_af3987 > :first-child {
+  order: 1 !important;
+}
+
+.roleCircle__4f569 {
+  --icon: var(--close-icon) !important;
+  border-radius: 999px !important;
+  margin: 0 !important;
+  margin-left: var(--spacing-2x) !important;
+  position: relative !important;
+  width: var(--role-button-size) !important;
+  height: var(--role-button-size) !important;
+}
+.roleRemoveButtonCanRemove__4f569 .roleCircle__4f569::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+}
+.roleCircle__4f569::after {
+  content: "" !important;
+  position: relative !important;
+  display: block !important;
+  right: 200% !important;
+  min-width: 500px !important;
+  height: 100px !important;
+  background-color: inherit !important;
+  opacity: 10% !important;
+  pointer-events: none !important;
+}
+
+.roleName_af3987 {
+  margin: 0 !important;
+  z-index: 1 !important;
+}
+
+.roleRemoveIcon_af3987 {
+  display: none !important;
+}
+
+.root_fccfdf {
+  gap: var(--role-spacing) !important;
+}
+.root_fccfdf .button_b46968 {
+  --icon: var(--plus-icon) !important;
+  --icon-button-size: var(--role-height) !important;
+  background-color: transparent !important;
+  transition: var(--button_transition) !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.root_fccfdf .collapseButton_fccfdf {
+  --icon: var(--pan-up-2-icon) !important;
+  --icon-button-size: var(--role-height) !important;
+  background-color: transparent !important;
+  transition: var(--button_transition) !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.root_fccfdf .expandButton_fccfdf {
+  --icon: var(--pan-down-icon) !important;
+  --icon-button-size: var(--role-height) !important;
+  background-color: transparent !important;
+  transition: var(--button_transition) !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+
+.userTagUsername__63ed3 {
+  line-height: 1.25 !important;
+}
+
+.viewFullBio_f5f93a {
+  --window_fg_muted: currentColor !important;
+  margin-top: var(--spacing) !important;
+}
+
+.wrapper__0c74f {
+  gap: var(--spacing) !important;
+}
+.wrapper__0c74f .bannerButton_fb7f94 {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  transition: var(--button_transition) !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  color: white !important;
+}
+
+.rightTrayIcon__2cdb8 {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  transition: var(--button_transition) !important;
+  border: none !important;
+  border-radius: 999px !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  color: white !important;
+  margin-inline-start: var(--spacing) !important;
+}
+.rightTrayIcon__2cdb8.viewers_d6b206 {
+  --icon: var(--view-reveal-icon) !important;
+}

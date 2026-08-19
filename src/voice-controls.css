@@ -1,0 +1,326 @@
+.colorable_f1ceac {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.colorable_f1ceac:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.colorable_f1ceac:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.colorable_f1ceac {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.colorable_f1ceac:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.colorable_f1ceac.disconnect_f1ceac, .colorable_f1ceac.disconnect_f1ceac .centerIcon_f1ceac {
+  color: var(--destructive-color) !important;
+}
+.colorable_f1ceac:not([aria-label]) {
+  --icon: var(--bullhorn-icon) !important;
+}
+
+.attachedCaret_f1ceac {
+  box-sizing: border-box !important;
+}
+
+.attachedCaretButtonContainer_f1ceac {
+  border-radius: var(--button_radius) !important;
+  transition: var(--button_transition) !important;
+}
+.attachedCaretButtonContainer_f1ceac:hover, .attachedCaretButtonContainer_f1ceac:active {
+  background-color: var(--hover_color) !important;
+}
+.attachedCaretButtonContainer_f1ceac:hover .attachedButton_f1ceac::after, .attachedCaretButtonContainer_f1ceac:active .attachedButton_f1ceac::after {
+  background-color: transparent !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedButton_f1ceac,
+.attachedCaretButtonContainer_f1ceac .attachedCaret_f1ceac {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedButton_f1ceac:hover,
+.attachedCaretButtonContainer_f1ceac .attachedCaret_f1ceac:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedButton_f1ceac:active,
+.attachedCaretButtonContainer_f1ceac .attachedCaret_f1ceac:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedButton_f1ceac,
+.attachedCaretButtonContainer_f1ceac .attachedCaret_f1ceac {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedButton_f1ceac:disabled,
+.attachedCaretButtonContainer_f1ceac .attachedCaret_f1ceac:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedButton_f1ceac,
+.attachedCaretButtonContainer_f1ceac .attachedCaret_f1ceac {
+  background-color: transparent !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedButton_f1ceac::after {
+  content: "" !important;
+  position: absolute !important;
+  inset-inline-end: -1px !important;
+  inset-block: var(--spacing) !important;
+  width: 1px !important;
+  height: calc(100% - var(--spacing-2x)) !important;
+  opacity: var(--dim-level-opacity) !important;
+  background-color: currentColor !important;
+  transition: var(--button_transition) !important;
+}
+.attachedCaretButtonContainer_f1ceac .attachedCaret_f1ceac {
+  --icon: var(--down-icon) !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  width: 24px !important;
+}
+.attachedCaretButtonContainer_f1ceac {
+  background-color: var(--hover_color) !important;
+}
+
+.edgeControls_bfe55a {
+  gap: var(--spacing) !important;
+}
+
+.headerBar__49508 .headerBarChildren__49508 {
+  gap: 0 !important;
+}
+.headerBar__49508 .playingText__49508 {
+  color: var(--window_fg_muted) !important;
+}
+.headerBar__49508 .wrapper__44b0c {
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+}
+.headerBar__49508 .wrapper__44b0c > svg {
+  height: inherit !important;
+}
+
+.headerWrapper_cb9592 {
+  margin-inline: -12px !important;
+}
+.headerWrapper_cb9592 .button__9db96 {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.headerWrapper_cb9592 .button__9db96:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.headerWrapper_cb9592 .button__9db96:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.headerWrapper_cb9592 .button__9db96 {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.headerWrapper_cb9592 .button__9db96:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.headerWrapper_cb9592 .button__9db96 {
+  color: inherit !important;
+  margin: 0 !important;
+}
+.headerWrapper_cb9592 [data-text-variant] {
+  filter: var(--text-shadow) !important;
+}
+
+.overlayContainer__2f4f7 .experimentOverlayTitle__2f4f7 {
+  color: var(--window_fg_color) !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7 {
+  --icon: var(--settings-icon) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7 {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7 {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  color: white !important;
+  border-radius: 999px !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7:hover {
+  background-color: color-mix(in srgb, black 55.25%, currentColor 9.75%) !important;
+}
+.overlayContainer__2f4f7 .overlayButton__2f4f7:active {
+  background-color: color-mix(in srgb, black 48.75%, currentColor 16.25%) !important;
+}
+
+.leftTrayIcon_cb9592,
+.rightTrayIcon_cb9592:not(.container__2d263) {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.leftTrayIcon_cb9592:hover,
+.rightTrayIcon_cb9592:not(.container__2d263):hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.leftTrayIcon_cb9592:active,
+.rightTrayIcon_cb9592:not(.container__2d263):active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.leftTrayIcon_cb9592,
+.rightTrayIcon_cb9592:not(.container__2d263) {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.leftTrayIcon_cb9592:disabled,
+.rightTrayIcon_cb9592:not(.container__2d263):disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.leftTrayIcon_cb9592,
+.rightTrayIcon_cb9592:not(.container__2d263) {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  color: white !important;
+  border-radius: 999px !important;
+}
+.leftTrayIcon_cb9592:hover,
+.rightTrayIcon_cb9592:not(.container__2d263):hover {
+  background-color: color-mix(in srgb, black 55.25%, currentColor 9.75%) !important;
+}
+.leftTrayIcon_cb9592:active,
+.rightTrayIcon_cb9592:not(.container__2d263):active {
+  background-color: color-mix(in srgb, black 48.75%, currentColor 16.25%) !important;
+}
+.leftTrayIcon_cb9592,
+.rightTrayIcon_cb9592:not(.container__2d263) {
+  --accent-color: var(--window_fg_color) !important;
+}
+
+.volumeButton__2d263:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.volumeButton__2d263:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.volumeButton__2d263 {
+    color: var(--window_fg_color) !important;
+    padding: 10px 5px !important;
+    border: none !important;
+    border-radius: var(--button_radius) !important;
+    min-width: 16px !important;
+    min-height: 24px !important;
+    height: 34px !important;
+}
+.volumeButton__2d263:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.wrapper__1405b {
+  gap: var(--spacing-2x) !important;
+}
+.wrapper__1405b .fullRegionButton_f1ceac,
+.wrapper__1405b .fullRegionDropdownButton_f1ceac,
+.wrapper__1405b .buttonSection__1405b {
+  background-color: transparent !important;
+  gap: var(--spacing) !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.visual-refresh .buttonsInner__5126c {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 999px !important;
+  padding: 2px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418 {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418 {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418 {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  color: white !important;
+  border-radius: 999px !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418:hover {
+  background-color: color-mix(in srgb, black 55.25%, currentColor 9.75%) !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418:active {
+  background-color: color-mix(in srgb, black 48.75%, currentColor 16.25%) !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418 {
+  background-color: transparent !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418:is([aria-label="Copy Message ID"], :has(> .buttonContent_f84418))::before {
+  display: none !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418:is([aria-label="Copy Message ID"], :has(> .buttonContent_f84418)) .icon_f84418 {
+  transform: none !important;
+  display: initial !important;
+}
+.visual-refresh .buttonsInner__5126c .hoverBarButton_f84418[aria-label=Delete] {
+  color: var(--destructive-color) !important;
+}
+.visual-refresh .buttonsInner__5126c .separator_f84418 {
+  background-color: color-mix(in srgb, currentColor 32.5%, transparent) !important;
+  margin: 0 var(--spacing) !important;
+  height: calc(100% - var(--spacing-2x) + 2px * 2) !important;
+}

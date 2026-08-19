@@ -1,0 +1,129 @@
+[role=tab] {
+  font-size: var(--document-font-size) !important;
+  font-weight: bold !important;
+  background-color: transparent !important;
+  transition: var(--button_transition) !important;
+  color: var(--window_fg_color) !important;
+  padding: 5px 10px !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  min-width: 16px !important;
+  min-height: 24px !important;
+  line-height: 1 !important;
+  padding-block: 10px !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  display: block !important;
+}
+[role=tab][aria-selected=true] {
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+}
+[role=tab][aria-selected=true]:hover {
+  background-color: color-mix(in srgb, currentColor 13%, transparent) !important;
+}
+[role=tab][aria-selected=true]:active {
+  background-color: color-mix(in srgb, currentColor 19%, transparent) !important;
+}
+[role=tab]::after {
+  display: none !important;
+}
+[role=tab] > [data-text-variant] {
+  color: inherit !important;
+}
+
+[role=tablist][aria-orientation=horizontal] {
+  gap: 5px !important;
+  border: none !important;
+}
+
+[role=tablist][aria-orientation=vertical] {
+  padding: var(--menu_margin) 0 !important;
+}
+[role=tablist][aria-orientation=vertical] [role=tab] {
+  line-height: 44px !important;
+  min-height: 36px !important;
+  padding: 0 14px !important;
+  margin: 0 var(--menu_margin) 2px !important;
+}
+
+.container__75098 {
+  outline: 0 solid transparent !important;
+  outline-offset: 2px !important;
+  transition: outline var(--focus_transition) !important;
+  background-color: color-mix(in srgb, currentColor 10%, var(--window_bg_color)) !important;
+  font-size: var(--document-font-size) !important;
+  line-height: 1.2 !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  margin: 0 !important;
+  height: unset !important;
+  gap: 0 !important;
+  padding: 0 !important;
+  flex-wrap: nowrap !important;
+  min-height: unset !important;
+}
+.container__75098:is(:focus, :focus-within) {
+  outline: 2px solid color-mix(in srgb, var(--accent-bg-color) 50%, transparent) !important;
+  outline-offset: -2px !important;
+}
+.container__75098:disabled {
+  opacity: var(--dim-level-opacity) !important;
+}
+.container__75098::placeholder {
+  color: var(--text-muted) !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+.container__75098 input {
+  padding: 8px 9px !important;
+}
+
+.input__0ed4f {
+  outline: 0 solid transparent !important;
+  outline-offset: 2px !important;
+  transition: outline var(--focus_transition) !important;
+  background-color: color-mix(in srgb, currentColor 10%, var(--window_bg_color)) !important;
+  font-size: var(--document-font-size) !important;
+  line-height: 1.25 !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 8px 9px !important;
+  margin: 0 !important;
+  height: unset !important;
+}
+.input__0ed4f:is(:focus, :focus-within) {
+  outline: 2px solid color-mix(in srgb, var(--accent-bg-color) 50%, transparent) !important;
+  outline-offset: -2px !important;
+}
+.input__0ed4f:disabled {
+  opacity: var(--dim-level-opacity) !important;
+}
+.input__0ed4f::placeholder {
+  color: var(--text-muted) !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+}
+
+.icon__75098:not(.button__75098) {
+  --icon: var(--system-search-icon) !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  border: none !important;
+  margin-inline-start: 9px !important;
+}
+.icon__75098.button__75098 {
+  --icon: var(--close-icon) !important;
+  background-color: transparent !important;
+  transition: var(--button_transition) !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+}

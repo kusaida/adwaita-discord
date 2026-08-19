@@ -1,0 +1,10 @@
+::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, currentColor 20%, transparent) !important;
+  transition: var(--scrollbar_transition) !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in srgb, currentColor 40%, transparent) !important;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: color-mix(in srgb, currentColor 60%, transparent) !important;
+}

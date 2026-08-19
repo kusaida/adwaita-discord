@@ -1,0 +1,31 @@
+.custom-theme-background body {
+  background: var(--background-gradient-app-frame) !important;
+}
+.custom-theme-background #app-mount {
+  inset: var(--app-border-size) !important;
+  width: calc(100% - var(--app-border-size) * 2) !important;
+  height: calc(100% - var(--app-border-size) * 2) !important;
+}
+
+.platform-win #app-mount {
+  border-radius: var(--window_radius) !important;
+}
+.platform-win #app-mount::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: var(--app-border-size) !important;
+  z-index: 9999 !important;
+  pointer-events: none !important;
+  outline: var(--app-border-size) solid var(--window_outline_color) !important;
+  border-radius: var(--window_radius) !important;
+}
+.platform-win .bar_c38106 {
+  right: var(--titlebar-button-spacing) !important;
+}
+.platform-win .base__5e434 {
+  padding: 0 !important;
+}
+
+#app-mount {
+  color: var(--window_fg_color) !important;
+}

@@ -1,0 +1,47 @@
+.closeIcon_d9c882,
+.divider_d9c882,
+.spacer_d9c882,
+.threadIcon_d9c882,
+.title_d9c882 {
+  display: none !important;
+}
+
+.createButton_d9c882 {
+  margin: 0 !important;
+}
+
+.header_d9c882 {
+  background-color: var(--headerbar_bg_color) !important;
+  box-shadow: var(--elevation-low) !important;
+  border: none !important;
+  gap: var(--spacing) !important;
+  padding: var(--spacing) !important;
+  height: unset !important;
+  min-height: unset !important;
+  z-index: 1 !important;
+}
+
+.popoutContainer__0f481 {
+  --custom-message-helpers-popout-padding-width: 0px !important;
+  backdrop-filter: blur(3px) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 9px !important;
+  box-shadow: none !important;
+  padding: 6px 10px !important;
+}
+.popoutContainer__0f481 [data-text-variant="text-xs/normal"],
+.popoutContainer__0f481 .defaultColor__4bd52,
+.popoutContainer__0f481 .guildTitle__0f481 {
+  color: inherit !important;
+}
+.popoutContainer__0f481 .emojiSection__0f481 > div {
+  align-items: center !important;
+}
+.popoutContainer__0f481 .guildSection__0f481 {
+  background-color: transparent !important;
+}
+.popoutContainer__0f481 .primaryEmoji__0f481 {
+  margin: 0 !important;
+}

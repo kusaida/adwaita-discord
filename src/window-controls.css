@@ -1,0 +1,140 @@
+.bar_c38106 {
+  background: none !important;
+  color: var(--headerbar_fg_color) !important;
+  padding: 0 !important;
+  position: fixed !important;
+  top: var(--spacing) !important;
+  right: var(--spacing) !important;
+  z-index: 101 !important;
+  height: unset !important;
+}
+.bar_c38106.systemBar_c38106 {
+  display: none !important;
+}
+.bar_c38106:nth-last-child(3) {
+  margin-top: calc(var(--icon-button-size) + var(--spacing-2x)) !important;
+}
+
+.backForwardButtons__63abb {
+  display: none !important;
+}
+
+.leading_c38106 > div > span {
+  display: none !important;
+}
+
+.title_c38106 {
+  display: none !important;
+}
+
+.trailing_c38106 {
+  gap: var(--spacing) !important;
+}
+.trailing_c38106 [aria-label="Update Ready!"],
+.trailing_c38106 [href="https://support.discord.com"] {
+  display: none !important;
+}
+
+.winButton_c38106 {
+  --icon-button-size: var(--titlebar-button-size) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  transition: var(--button_transition) !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  background-color: color-mix(in srgb, currentColor 10%, transparent) !important;
+  border-radius: 100% !important;
+}
+.winButton_c38106:hover {
+  background-color: color-mix(in srgb, currentColor 15%, transparent) !important;
+}
+.winButton_c38106:active {
+  background-color: color-mix(in srgb, currentColor 30%, transparent) !important;
+}
+.winButton_c38106:disabled {
+  opacity: var(--dim-level-opacity) !important;
+  background-color: transparent !important;
+}
+.winButton_c38106::before {
+  content: "" !important;
+  background-color: currentColor !important;
+  mask: var(--icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.winButton_c38106 > * {
+  display: none !important;
+}
+
+.winButtons_c38106 {
+  color: inherit !important;
+  gap: var(--titlebar-button-spacing) !important;
+}
+.winButtons_c38106::before {
+  display: none !important;
+}
+
+.winButtonClose_c38106 {
+  --icon: var(--close-icon);
+  color: inherit !important;
+  display: var(--titlebar-close-button) !important;
+}
+
+.winButtonMinMax_c38106 {
+  --icon: var(--max-icon);
+  display: var(--titlebar-maximize-button) !important;
+}
+.winButtonMinMax_c38106:first-child {
+  --icon: var(--min-icon);
+  display: var(--titlebar-minimize-button) !important;
+}
+
+.icon_a22cb0 {
+  display: none !important;
+}
+
+.headerTrailing__8a031 .button_a22cb0.icon-only_a22cb0::before {
+  content: "" !important;
+  background-color: currentColor !important;
+  mask: var(--close-icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.closeButton_c2b141 svg, .closeIcon__49fc1 svg  {
+  display: none !important;
+}
+
+.closeButton_c2b141::before, .closeIcon__49fc1::before {
+  content: "" !important;
+  background-color: currentColor !important;
+  mask: var(--close-icon) !important;
+  mask-position: center !important;
+  mask-repeat: no-repeat !important;
+  mask-size: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+

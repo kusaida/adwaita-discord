@@ -1,0 +1,94 @@
+.expiringStatusMenuItem_ce8328 .iconContainer_c1e9c4 {
+  display: none !important;
+}
+
+.menuItem_ce8328 {
+  --icon: var(--go-next-icon) !important;
+}
+.menuOverlay_ce8328:first-child .menuItem_ce8328:first-child {
+  --icon: var(--edit-icon) !important;
+}
+.menuOverlay_ce8328:first-child .menuItem_ce8328:nth-child(2) > .menuItemInner_ce8328:has([mask="url(#svg-mask-status-online)"]) {
+  color: var(--success-color) !important;
+}
+#set-status-submenu-online {
+  color: var(--success-color) !important;
+}
+
+.menuOverlay_ce8328:first-child .menuItem_ce8328:nth-child(2) > .menuItemInner_ce8328:has([mask="url(#svg-mask-status-idle)"]) {
+  color: var(--warning-color) !important;
+}
+#set-status-submenu-idle {
+  color: var(--warning-color) !important;
+}
+
+.menuOverlay_ce8328:first-child .menuItem_ce8328:nth-child(2) > .menuItemInner_ce8328:has([mask="url(#svg-mask-status-dnd)"]) {
+  color: var(--destructive-color) !important;
+}
+#set-status-submenu-dnd {
+  color: var(--destructive-color) !important;
+}
+
+.menuOverlay_ce8328:first-child .menuItem_ce8328:nth-child(2) > .menuItemInner_ce8328:has([mask="url(#svg-mask-status-offline)"]) {
+  color: var(--window_fg_muted) !important;
+}
+#set-status-submenu-offline {
+  color: var(--window_fg_muted) !important;
+}
+
+.menuOverlay_ce8328:nth-child(2) .menuItem_ce8328:nth-child(2) {
+  --icon: var(--copy-icon) !important;
+}
+.menuItem_ce8328::after {
+  display: none !important;
+}
+
+.menuItemContent_ce8328 {
+  flex-direction: row-reverse !important;
+}
+
+.menuItemIcon_ce8328 {
+  background-color: transparent !important;
+  transition: var(--button_transition) !important;
+  border: none !important;
+  border-radius: var(--button_radius) !important;
+  padding: 0 !important;
+  position: relative !important;
+  width: var(--icon-button-size) !important;
+  height: var(--icon-button-size) !important;
+  pointer-events: all !important;
+}
+
+.menuItemInner_ce8328 {
+  background-color: var(--card_bg_color) !important;
+  color: var(--card_fg_color) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 10px 16px !important;
+  min-height: calc(var(--icon-button-size) + 20px) !important;
+  transition: var(--backdrop_transition) !important;
+  border-bottom: 1px solid var(--card_shade_color) !important;
+  box-sizing: border-box !important;
+  pointer-events: none !important;
+}
+
+.menuItemLabelText_ce8328 {
+  color: inherit !important;
+}
+
+.menuOverlay_ce8328 {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.menus_ce8328 {
+  border-radius: var(--card_radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  gap: 0 !important;
+  overflow: hidden !important;
+}
+
+.submenuIconWrapper_ce8328 {
+  display: none !important;
+}

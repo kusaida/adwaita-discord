@@ -1,0 +1,23 @@
+/*
+ * @name Adwaita
+ * @description Adwaita theme for BetterDiscord.
+ * @author kusaida
+ */
+ 
+@import url("https://raw.githubusercontent.com/kusaida/adwaita-discord/refs/heads/main/build/adwaita.css");
+ 
+:root  {
+    /* Window controls */
+  /* on/off - flex/none */
+  --titlebar-close-button: flex;
+  --titlebar-maximize-button: none;
+  --titlebar-minimize-button: none;
+  /* also set this to how much buttons are visible */
+  --titlebar-buttons-count: 1;
+    
+    /* Accent color */
+    --accent: var(--blue);
+  /* blue	teal green 
+      yellow orange red 
+        pink purple	slate in place of blue
+          or your custom one in place of var() */
